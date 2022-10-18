@@ -1,3 +1,18 @@
+.mainstructure {
+  background-color: #953e46;
+  padding-left: 4%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+.maincolor {
+  color: #953e46;
+}
+
+.secondarycolor {
+  background-color: #f3e4cf
+}
 .container {
   padding: 0 2rem;
 }

@@ -1,0 +1,122 @@
+.search {
+    font-size: 30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #eee;
+}
+
+.primarycolor {
+    color: #953e46;
+
+}
+
+.secondarycolor {
+    color: #f3e4cf;
+}
+
+.secondarybackground {
+    background-color: #f3e4cf;
+    ;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.standardtext {
+    font-size: 20px;
+    padding-right: 2%;
+
+}
+
+.userprofile {
+    font-size: 20px;
+    color: #f3e4cf;
+}
+
+.container-fluid {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+
+.modal-background {
+    background-color: #953e46;
+
+}
+
+.mobilenavbarmenu {
+
+    color: #953e46 !important;
+    font-size: 20px;
+    margin-bottom: 3%;
+    font-weight: bold;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-light:hover {
+    background-color: #ead3c3 !important;
+    opacity: 0.7;
+
+}
+
+.close-modal {
+    margin-top: -15%;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-name-2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 18%;
+}
+
+.profile-picture {
+    margin-top: -7%;
+}
+
+.horizontal-line {
+    background-color: #f3e4cf;
+    padding: 2px;
+}
+
+.navigation-bar {
+    color: #f3e4cf;
+    font-size: 45px;
+}
+
+/*  */
+
+@media only screen and (min-width: 576px) {
+    .mobile-header {
+        visibility: hidden;
+        max-height: 0;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .right-header {
+        visibility: hidden;
+        max-height: 0;
+    }
+
+    .logo {
+        visibility: hidden;
+        max-height: 0;
+    }
+
+    .mobile-right-content {
+        margin-top: 8%;
+        height: 40%;
+    }
+
+}

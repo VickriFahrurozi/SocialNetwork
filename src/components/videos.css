@@ -1,0 +1,89 @@
+.videos-text {
+    font-size: 40px;
+    color: #f3e4cf;
+    font-weight: bolder;
+}
+
+.videos-text-activity {
+    font-size: 30px;
+    color: #f3e4cf;
+    font-weight: bolder;
+}
+
+.videos-text-small {
+    font-size: 20px;
+    color: #f3e4cf;
+    font-weight: bolder;
+}
+
+.videos-text-small-activity {
+    font-size: 15px;
+    color: #f3e4cf;
+    font-weight: bolder;
+}
+
+.videos-main {
+    position: absolute;
+    bottom: 0;
+}
+
+.box-fill {
+    padding: 20%;
+}
+
+.box-fill-2 {
+    padding-top: 55%;
+}
+
+.box-fill-3 {
+    padding-top: 15%;
+}
+
+.box-fill-5 {
+    padding-top: 30%;
+}
+
+.box-fill-6 {
+    padding-top: 10%;
+
+}
+
+.box-fill-4 {
+    border-color: 2px solid #f3e4cf !important;
+    ;
+}
+
+.videos-parent {
+    position: relative;
+
+}
+
+.border-videos {
+    background-color: transparent;
+    border: 2px solid #f3e4cf !important;
+}
+
+@media only screen and (min-width: 576px) {
+    .mobile-videos {
+        visibility: hidden;
+        max-height: 0;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .box-fill-6 {
+        padding: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videos-content {
+        margin-top: -7%;
+    }
+
+    .activity-mobile {
+        background-color: #9e4f54;
+
+    }
+}
