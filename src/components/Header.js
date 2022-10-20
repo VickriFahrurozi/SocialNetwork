@@ -82,7 +82,7 @@ const Header = () => {
 								className={`col-4 ${styles.secondarycolor} d-flex align-items-center  ps-xl-3 pe-xl-3  `}
 							>
 								<div className='col-12 d-flex justify-content-center'>
-									<div>
+									<div data-toggle='modal' data-target='#mobileprofilenavbar'>
 										<Image src={user} width={'60%'} height={'100%'} />
 									</div>
 								</div>
